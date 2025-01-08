@@ -1,0 +1,13 @@
+.conteudo-eventos {
+    width: 95%;
+}
+
+.txt-eventos span {
+    font-size: .8rem;
+    letter-spacing: 3px;
+}
+
+.txt-eventos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

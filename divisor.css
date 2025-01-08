@@ -41,12 +41,9 @@
     gap: 20px;
 }
 
-.icons-divisor .ig {
-    width: 40px;
-}
-
-.icons-divisor .wpp {
-    width: 35px;   
+.icons-divisor .ig, .icons-divisor .wpp {
+    width: 35px;
+    transition: .7s ease;
 }
 
 .icons-divisor .ig:hover, .icons-divisor .wpp:hover {
