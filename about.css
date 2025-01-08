@@ -1,0 +1,59 @@
+.conteudo-sobre {
+    width: 95%;
+}
+
+.txt-sobre span {
+    font-size: .8rem;
+    letter-spacing: 3px;
+}
+
+.txt-sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.box-sobre {
+    display: flex;
+}
+
+.txt-sobre {
+    width: 50%;
+    display: flex;
+    flex-direction: column;      
+}
+
+.txt-sobre a {
+    width: 30%;
+    margin-top: 50px;
+    padding: 10px 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.txt-sobre a:hover {
+    background-color: #34C2D7;
+    font-weight: bold;
+    transition: .8s ease;
+}
+
+.paragrafos p {
+    margin: 20px 0 0;
+    display: flex;
+}
+
+.img-sobre {
+    width: 50%;
+    text-align: center;
+}
+
+.img-sobre img {
+    width: 45%;
+}

@@ -5,6 +5,7 @@
     font-family: "Open Sans", serif;
 }
 
-/* body {
-    background-image: url(assets/fundo.png);
-} */
+.conteudo {
+    padding: 60px 40px;
+    margin: 0 auto;
+}
