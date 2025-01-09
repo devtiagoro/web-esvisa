@@ -22,3 +22,17 @@ footer {
     text-decoration: none;
     color: #fff;
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #conteudo_footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #conteudo_footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

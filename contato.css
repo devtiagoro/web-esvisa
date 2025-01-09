@@ -27,3 +27,81 @@ iframe {
     border-left: 3px solid #34C2D7;
 }
 
+.icons-contato .ig, .icons-contato .wpp {
+    width: 35px;
+    transition: .7s ease;
+    margin: 15px 8px;
+}
+
+
+
+.icons-contato .ig:hover, .icons-contato .wpp:hover {
+    box-shadow: 0 0 12px 4px #000;
+    border-radius: 10px;
+    padding: 4px;
+    transition: .7s ease;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .conteudo-contato {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0px 0px;
+    }
+
+    .conteudo-contato p {    
+        border-left: none;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    .icons-contato .ig, .icons-contato .wpp {
+        margin: 15px 8px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .conteudo-contato {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0px 0px;
+    }
+
+    .conteudo-contato p {    
+        border-left: none;
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    .icons-contato .ig, .icons-contato .wpp {
+        margin: 15px 8px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .conteudo-contato {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0px 0px;
+    }
+
+    .conteudo-contato p {    
+        border-left: none;
+    }
+
+    iframe {
+        height: 200px;
+    }
+
+    .icons-contato .ig, .icons-contato .wpp {
+        margin: 15px 8px;
+    }
+}

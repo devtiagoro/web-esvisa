@@ -52,3 +52,21 @@
     padding: 4px;
     transition: .7s ease;
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .txt-divisor p {
+        width: 85%;    
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .txt-divisor {
+        background-position: center;
+    }
+    
+    .txt-divisor p {
+        width: 82%;
+        font-size: 1.2rem;
+    }
+}

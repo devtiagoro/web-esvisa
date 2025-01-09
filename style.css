@@ -9,3 +9,11 @@
     padding: 40px 40px;
     margin: 0 auto;
 }
+
+@media (max-width: 480px) {
+    .conteudo {
+        padding: 0px 0px;
+        margin: 0 auto;
+    }
+    
+}

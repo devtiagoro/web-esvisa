@@ -19,7 +19,6 @@ nav {
     align-items: center;
 }
 
-
 .logo {
     width: 50%;
 }
@@ -55,4 +54,22 @@ nav {
     border-bottom: 1px solid #ffd430;
     transition: .5s ease;
     font-weight: bold;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .logo img {
+        width: 25%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    header {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        display: none;
+    }
 }
